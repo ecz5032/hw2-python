@@ -1,23 +1,23 @@
 #Author: Eric Zhang ecz5032@psu.edu
 def getGradePoint(grade):
   if grade == "A":
-   return 4
+   return 4.0
   elif grade == "A-":
     return 3.67
   elif grade == "B+":
    return 3.33
   elif grade == "B":
-    return 3
+    return 3.0
   elif grade == "B-":
    return 2.67
   elif grade == "C+":
    return 2.33
   elif grade == "C":
-   return 2
+   return 2.0
   elif grade == "D":
-   return 1
+   return 1.0
   else:
-   return 0
+   return 0.0
 
 def run():
   grade = str(input("Enter your course 1 letter grade: "))
